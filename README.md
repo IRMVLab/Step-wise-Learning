@@ -19,6 +19,9 @@ Test Environment:
 - Ubuntu 20.04
 - GPU: RTX 2060 - 6 GB
 - 16 GB RAM
+- Tensorflow 2.5.0
+- Keras 2.6.0
+- Numpy 1.19.5
 
 To run the code:
 
