@@ -7,5 +7,4 @@ Train.py is used to train the simple feedforward network using step-wise learnin
 
 angle_measurement.py is used to evaluate the performance of a network on various angles of an object.
 
-Some of the codes will be uploaded soon, remaining codes and dataset will be uploaded after the paper is accepted.
 
