@@ -8,6 +8,24 @@ Train.py is used to train the simple feedforward network using step-wise learnin
 angle_measurement.py is used to evaluate the performance of a network on various angles of an object.
 
 
+Dataset Preparation:
+----------------------
+Each of 'training_set' and 'validation_set' directories should contain sub-directories. Where each sub-directory should have multiple images of same scene or class. The images belonging to same class or same scene should be having modified environmental conditions like some images taken from front view and some from different viewing angles or in different illumination coditions. The images may be scaled, rotated or partially occluded.
+
+
+To Generate Embeddings:
+---------------------------
+Test Environment:
+- Machine: Acer Predator Helios 300 (PH315-53-72XD)
+- Ubuntu 20.04
+- GPU: RTX 2060 - 6 GB
+- 16 GB RAM
+- Tensorflow/ Keras 2.1.0
+
+
+To run the Code:
+1. Change 'work_dir' and 'dataset_path' to your checkpoint location and dataset location.
+2. Run 'train.py'
 
 
 For Binary classification on smaller Datasets:
