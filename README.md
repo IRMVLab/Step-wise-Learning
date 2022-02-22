@@ -21,6 +21,9 @@ Test Environment:
 - GPU: RTX 2060 - 6 GB
 - 16 GB RAM
 - Tensorflow/ Keras 2.1.0
+- Cuda 10.2
+- Cudnn 8.0.1
+
 
 
 To run the Code:
@@ -32,6 +35,8 @@ For Binary classification on smaller Datasets:
 ----------------------------------------------
 The core training approach proposed in the paper "Viewpoint-Invariant Loop Closure Detection using step-wise Learning with Controlling Embeddings of Landmarks" is used for binary classification purpose in 'binary_classifier.py'. For Core paper topic, use 'train.py'.
 
+Install pynput (optional). If you do not want to install, just comment out the lines needing this library.
+
 Test Environment:
 - Machine: Acer Predator Helios 300 (PH315-53-72XD)
 - Ubuntu 20.04
@@ -40,6 +45,9 @@ Test Environment:
 - Tensorflow 2.5.0
 - Keras 2.6.0
 - Numpy 1.19.5
+- Cuda 11.2
+- Cudnn 8
+- GCC 9.3.0
 
 To run the code:
 
