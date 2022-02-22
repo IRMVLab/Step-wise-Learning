@@ -13,7 +13,7 @@ Dataset Preparation:
 Each of 'training_set' and 'validation_set' directories should contain sub-directories. Where each sub-directory should have multiple images of same scene or class. The images belonging to same class or same scene should be having modified environmental conditions like some images taken from front view and some from different viewing angles or in different illumination coditions. The images may be scaled, rotated or partially occluded.
 
 
-To Generate Embeddings:
+To Train Embeddings Generator:
 ---------------------------
 Test Environment:
 - Machine: Acer Predator Helios 300 (PH315-53-72XD)
