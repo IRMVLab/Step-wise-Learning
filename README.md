@@ -24,6 +24,7 @@ Test Environment:
 - Tensorflow/ Keras 2.1.0
 - Cuda 10.2
 - Cudnn 8.0.1
+- Python 3.8.10
 
 
 
@@ -49,6 +50,7 @@ Test Environment:
 - Cuda 11.2
 - Cudnn 8
 - GCC 9.3.0
+- Python 3.8.10
 
 To run the code:
 
