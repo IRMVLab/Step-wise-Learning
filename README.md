@@ -63,4 +63,4 @@ To run the code:
 7. It will train multiple times, may be the features used first time, does not fit to other image pairs, so this data will be discarded and another features will be considered from first pair and the network will try to optimize it until the required 'loss_th', 'vloss_th', 'acc_th', 'vacc_th' are obtained.
 
 
-If you have any questions with the codes, please feel free to contact me.
+If you have any questions with the codes, please feel free to contact me at azammemon2000@gmail.com.
